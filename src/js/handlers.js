@@ -131,6 +131,7 @@ export default {
       }
 
       this.toggle();
+      this.moveTo(this.initialImageData.x, this.initialImageData.y);
     }
   },
 
