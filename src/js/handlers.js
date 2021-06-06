@@ -131,7 +131,7 @@ export default {
       }
 
       this.toggle();
-      if (this.imageData.ratio !== 1) {
+      if (this.imageData.ratio === this.initialImageData.ratio) {
         this.moveTo(this.initialImageData.x, this.initialImageData.y);
       }
     }
